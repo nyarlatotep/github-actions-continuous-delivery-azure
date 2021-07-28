@@ -2,9 +2,7 @@ name: Stage the app
 
 on: 
   pull_request:
-   types: [labeled]
-  
-  workflow_dispatch:
+    types: [labeled]
 
 env:
   DOCKER_IMAGE_NAME: nyarlatotep-azure-ttt
