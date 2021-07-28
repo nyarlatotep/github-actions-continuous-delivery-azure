@@ -6,13 +6,13 @@ on:
 
 env:
   DOCKER_IMAGE_NAME: nyarlatotep-azure-ttt
-  IMAGE_REGISTRY_URL: docker.pkg.github.com
+  IMAGE_REGISTRY_URL: docker.pkg.github.comn/yarlatotep-azure-ttt:d0541c6f53c86a023b9020988beeca21bd7c4c78
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
   #################################################
   ### REPLACE USERNAME WITH GH USERNAME         ###
-  AZURE_WEBAPP_NAME: nyarlatotep
+  AZURE_WEBAPP_NAME: nyarlatotep-ttt-app
   #################################################
 
 jobs:
